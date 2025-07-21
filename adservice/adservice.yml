@@ -15,7 +15,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
       - name: server
-        image: madeep2669/adservice:1
+        image: madeep2669/adservice:20
         ports:
         - containerPort: 9555
         env:
